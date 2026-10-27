@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/code",
+      "destination": "https://fandenda-ed1feea7ee4a.herokuapp.com/code"
+    },
+    {
+      "source": "/code/:path*",
+      "destination": "https://fandenda-ed1feea7ee4a.herokuapp.com/code/:path*"
+    }
+  ]
+}
